@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html>
+  <head>
     
-</body>
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Twitter Clone</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Notifications</a></li>
+          <li><a href="#">Messages</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="">
+        <textarea placeholder="What's happening?" rows="4"></textarea>
+        <button type="submit">Tweet</button>
+      </form>
+      <section class="tweets">
+        <article>
+          <header>
+            <img src="avatar1.jpg" alt="Avatar">
+            <h2>Username</h2>
+            <p>@handle</p>
+          </header>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor velit eu ex lacinia, ut gravida orci suscipit.</p>
+          <footer>
+            <a href="#">Like</a>
+            <a href="#">Retweet</a>
+            <a href="#">Reply</a>
+          </footer>
+        </article>
+        <article>
+          <header>
+            <img src="avatar2.jpg" alt="Avatar">
+            <h2>Username</h2>
+            <p>@handle</p>
+          </header>
+          <p>Proin at nisi eget dolor ornare dignissim vel ut dolor. Donec in mi erat.</p>
+          <footer>
+            <a href="#">Like</a>
+            <a href="#">Retweet</a>
+            <a href="#">Reply</a>
+          </footer>
+        </article>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
